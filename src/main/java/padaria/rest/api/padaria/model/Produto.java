@@ -20,7 +20,7 @@ public class Produto {
 
     @Size(max = 2)
     @NotNull
-    private int quantidade;
+    private String quantidade;
 
 
     public Long getId() {
@@ -35,10 +35,10 @@ public class Produto {
     public void setNome(String nome) {
         this.nome = nome;
     }
-    public int getQuantidade() {
+    public String getQuantidade() {
         return quantidade;
     }
-    public void setQuantidade(int quantidade) {
+    public void setQuantidade(String quantidade) {
         this.quantidade = quantidade;
     }
 
